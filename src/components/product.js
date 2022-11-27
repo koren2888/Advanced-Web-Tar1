@@ -2,7 +2,7 @@ import "./product.css"
 
 function Product(props) {
   return (
-    <div className="Product">
+    <div onClick={props.chooseProduct} className="Product">
         <div className="Details">
             <div className="ProductName">{props.name}</div>
             <div className="ProductPrice">{props.price}$</div>

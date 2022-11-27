@@ -1,0 +1,36 @@
+.ProductDescription {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5vh;
+    height: 15vh;
+    display: flex;
+}
+
+.ProductDescription .Details {
+    text-align: left;
+    width: 100%;
+    margin: 2vh;
+}
+
+.ProductDescription .ProductName {
+    font-size: 2em;
+    font-weight: 600;
+}
+ 
+.ProductDescription .ProductPrice {
+    font-size: 1.2em;
+}
+
+.ProductDescription  .ProductImage {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 10vh;
+    width: 10vh;
+    margin: 2vh;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.description {
+    font-size: 2vw;
+}
